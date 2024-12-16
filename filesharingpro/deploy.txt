@@ -1,0 +1,26 @@
+
+Cloud Providers: AWS(EC2)
+Cloud storage use: AWS(S3)
+Containerized Solutions: Docker
+
+Use a Linux-based OS like Ubuntu.
+
+Configure the Database
+Recommended Databases: PostgreSQL or MySQL.
+
+Set Up the Virtual Environment
+
+Collect Static Files
+
+Configure Gunicorn (WSGI Server)
+
+Set Up Nginx
+
+Configure Domain and HTTPS
+
+
+Update Django Settings
+
+Run Migrations
+
+Monitor and Log
