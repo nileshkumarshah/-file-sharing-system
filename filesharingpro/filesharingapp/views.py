@@ -56,7 +56,7 @@ class ClientUserLoginAPI(APIView):
                 }
                 jwt_token = jwt.encode(payload, 'secret', JWT_ALGORITHM)
                 token = jwt_token.decode()
-                return Response({"detail": "Login successful.", "token":token}, status=status.HTTP_201_CREATED)
+                return Response({"detail": "Login successful.", "token":token}, status=status.HTTP_200_OK)
             except Exception as error:
                 return Response({"error": error}, status=status.HTTP_400_BAD_REQUEST)
         return Response({"detail": "User not found."}, status=status.HTTP_400_BAD_REQUEST)
