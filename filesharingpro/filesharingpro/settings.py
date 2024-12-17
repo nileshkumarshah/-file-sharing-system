@@ -25,7 +25,7 @@ SECRET_KEY = 'smghqk5*y)%kgaib7!h5x5pk=kpn4f^55j@p!(o@7%+f)#0-v*'
 ENCRYPTION_KEY = 'WIAeok9s07B0RfjoitjohWmTdv1wIkEyW3P-HZSMKTM='
 
 FRONTEND_URL = "https://wetransfer.com/"
-DEFAULT_FROM_EMAIL = "nilesh.shah@sastechstudio.com"
+DEFAULT_FROM_EMAIL = "sotibih182@chosenx.com"
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com' 
 EMAIL_PORT = 587  
